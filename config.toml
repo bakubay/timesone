@@ -1,0 +1,105 @@
+baseURL = "http://timesone.me/"
+languageCode = "en-us"
+title = "Gasa Corner"
+author = "gbaku"
+theme = "hugo-vitae"
+
+paginate = 10
+enableRobotsTXT = true
+
+copyright = "© Copyright notice | "
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+disqusShortname = ""
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[params]
+
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = ["blog"]
+
+	# Add meta description in head part
+	description = "Trying to find 'it'"
+
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "Times One"
+
+	# Add a subtitle to your website
+	subtitle = "In hopes to discover the 'it' factor"
+
+	# Activate to show authors on pages if available
+	#listAuthor = true
+
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
+
+	# Optional 80x80 avatar image.
+	avatar = "/img/x1.png"
+
+	# Optional favicons for website
+	#favicon = true
+
+	# Add list of sections that should show up on the homepage
+    mainSections = ["post"]
+
+	# Add list of Sections/Types that should no be considered by RSS
+	#nofeedSections = ["post"]
+
+	# Deactivate Taxonomies for specific page types
+	#disableTaxoTypes = [""]
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+
+	# Custom CSS applied to default styles. (Path is static/css/)
+	customCSS = "custom.css"
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/post"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 5
+
+[[menu.main]]
+name = "Series"
+url = "/series"
+weight = 6
+
+[[menu.main]]
+name = "Books"
+url = "/books"
+wieght = 7
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/gassyrbakubay/"
