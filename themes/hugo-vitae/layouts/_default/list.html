@@ -21,8 +21,8 @@
 <span class="description">
 {{ if isset .Params "description" }}
 {{ .Description }}
-{{ else if gt (len .Plain) 120 }}
-{{ slicestr .Plain 0 120 | htmlUnescape }}...
+{{ else if gt (len .Plain) 150 }}
+{{ slicestr .Plain 0 150 | htmlUnescape }}...
 {{ else }}
 {{ .Plain  | htmlUnescape }}
 {{ end }}

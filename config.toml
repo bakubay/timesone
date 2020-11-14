@@ -1,6 +1,6 @@
 baseURL = "https://bakubay.github.io/"
 languageCode = "en-us"
-title = "Gasa Corner"
+title = "Gasa's corner"
 author = "gbaku"
 theme = "hugo-vitae"
 
@@ -30,10 +30,10 @@ disqusShortname = ""
 	description = "Trying to find 'it'"
 
 	# Add pagetitle to homepage <title> tag
-	pagetitle = "Times One"
+	pagetitle = "Gasa's corner"
 
 	# Add a subtitle to your website
-	subtitle = "In hopes to discover the 'it' factor"
+	subtitle = ""
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -42,7 +42,7 @@ disqusShortname = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/x1.png"
+	avatar = ""
 
 	# Optional favicons for website
 	#favicon = true
